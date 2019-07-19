@@ -28,11 +28,12 @@
               "src/assets"
             ],
             "styles": [
+	         "node_modules/perfect-scrollbar/css/perfect-scrollbar.css",
 		"src/assets/scss/index.scss",
               "src/styles.scss"
             ],
             "scripts": [
-	     "src/assets/scss/css-base.js"
+	     "node_modules/css-loader/lib/loader.js"
 	    ],
           },
           "configurations": {
